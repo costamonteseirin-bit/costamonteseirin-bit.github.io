@@ -1,0 +1,74 @@
+body {
+  background: #ece5dd;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.phone {
+  width: 100%;
+  max-width: 420px;
+  height: 90vh;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.header {
+  background: #075e54;
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.chat {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.message {
+  max-width: 75%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.from-ella {
+  background: #e1ffc7;
+  align-self: flex-start;
+}
+
+.from-tu {
+  background: #dcf8c6;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.message img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.options {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.options button {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background: #128c7e;
+  color: white;
+  font-size: 14px;
+}

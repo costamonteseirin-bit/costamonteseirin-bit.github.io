@@ -1,8 +1,8 @@
 const chatData = {
   inicio: {
     from: "Lester",
-    text: "Hey, tengo planes para un nuevo golpe, ¿puedo contar contigo?",
-    next: "opciones1"
+    text: "Este es un canal privado, presta atención al plan que te propongo",
+    next: "audio1"
   },
 
   opciones1: {
@@ -15,17 +15,18 @@ const chatData = {
   audio1: {
     from: "Lester",
     audio: "audio/mensaje1.mp3",
+    next: "foto1"
   },
 
   foto1: {
     from: "Lester",
-    image: "img/foto1.jpg",
+    text: "Recuerda: 26, 27, 28 o 29 de julio o 25, 26 o 27 de agosto. Esas son las fechas para efectuar el golpe y será necesario que tengas un vehículo para la operación",
     next: "fin"
   },
 
   fin: {
     from: "Lester",
-    text: "Eso eres."
+    text: "Cuando decidas el día, puedes comúnicarselo a unos agentes que operan en tus cercanías."
   }
 };
 

@@ -1,7 +1,7 @@
 const chatData = {
   inicio: {
     from: "Lester",
-    text: "Este es un canal privado, presta atención al plan que te propongo",
+    text: "This is a private channel, i will use it to keep in touch with you for new information",
     next: "audio1"
   },
 
